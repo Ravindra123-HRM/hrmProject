@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="51.947" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Dell\eclipse-workspace\hrmProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Dell\eclipse-workspace\hrmProject"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6407212436843611141.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ravindra\apache-maven-3.6.3\bin;C:\ravindra\apache-maven-3.6.3;%M2_MAVEN%\bin;C:\Program Files (x86)\Java\jdk1.8.0_141;C:\Program Files (x86)\Java\jdk1.8.0_141\lib;C:\Windows\System32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Dell"/>
+    <property name="java.class.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_141\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Dell\eclipse-workspace\hrmProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="clickonadminpageTest" classname="com.hrm.qa.testcases.Admin_PaygradesTest" time="18.079">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#payGrade_name&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RAVINDRAPC&apos;, ip: &apos;192.168.43.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: dd175f36741da7b3b1b1bf7e97a11ac3&#10;*** Element info: {Using=id, value=payGrade_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#payGrade_name"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAVINDRAPC', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd175f36741da7b3b1b1bf7e97a11ac3
+*** Element info: {Using=id, value=payGrade_name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
+	at com.hrm.qa.pages.Admin_Paygrades.ReadExcelFile(Admin_Paygrades.java:85)
+	at com.hrm.qa.testcases.Admin_PaygradesTest.clickonadminpageTest(Admin_PaygradesTest.java:56)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+chrome
+Done Mouse hover on 'admin' from Menu
+3
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31920
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 31, 2020 2:51:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585646516.832][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646516.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.463][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.565][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.784][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646517.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.097][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.200][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.307][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.463][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.567][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.893][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646518.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.372][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.581][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.683][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.896][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646522.998][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646523.103][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646526.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.412][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.518][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.619][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646527.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646528.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585646528.120][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="clickonadminpageTest" classname="com.hrm.qa.testcases.AdminPageTest" time="30.157"/>
+  <testcase name="login" classname="com.hrm.qa.testcases.LoginpageTest" time="3.711"/>
+</testsuite>
