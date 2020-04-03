@@ -5,6 +5,9 @@
     <classes>
       <class name="com.hrm.qa.testcases.Admin_PaygradesTest">
         <methods>
+          <include name="setextent"/>
+          <include name="tearDown"/>
+          <include name="endreport"/>
           <include name="clickonadminpageTest"/>
           <include name="setup"/>
         </methods>

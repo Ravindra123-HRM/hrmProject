@@ -5,20 +5,13 @@
     <classes>
       <class name="com.hrm.qa.testcases.Admin_PaygradesTest">
         <methods>
-          <include name="endTest"/>
-          <include name="startTest"/>
-          <include name="clickonadminpageTest"/>
+          <include name="setextent"/>
+          <include name="tearDown"/>
+          <include name="clickonadminpaygradeTestTest"/>
+          <include name="endreport"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.hrm.qa.testcases.Admin_PaygradesTest -->
-      <class name="com.hrm.qa.testcases.AdminPageTest">
-        <methods>
-          <include name="endTest"/>
-          <include name="startTest"/>
-          <include name="clickonadminpageTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.hrm.qa.testcases.AdminPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

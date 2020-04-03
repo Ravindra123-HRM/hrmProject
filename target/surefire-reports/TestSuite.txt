@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 85.936 sec <<< FAILURE! - in TestSuite
-clickonadminpageTest(com.hrm.qa.testcases.Admin_PaygradesTest)  Time elapsed: 18.079 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.106 sec <<< FAILURE! - in TestSuite
+clickonadminpageTest(com.hrm.qa.testcases.Admin_PaygradesTest)  Time elapsed: 22.282 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#payGrade_name"}
-  (Session info: chrome=80.0.3987.149)
+  (Session info: chrome=80.0.3987.162)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAVINDRAPC', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dd175f36741da7b3b1b1bf7e97a11ac3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.162, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ffe9c31dda559e53d8b0c9ca1ca67ac0
 *** Element info: {Using=id, value=payGrade_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -28,7 +28,7 @@ Session ID: dd175f36741da7b3b1b1bf7e97a11ac3
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
 	at com.hrm.qa.pages.Admin_Paygrades.ReadExcelFile(Admin_Paygrades.java:85)
-	at com.hrm.qa.testcases.Admin_PaygradesTest.clickonadminpageTest(Admin_PaygradesTest.java:56)
+	at com.hrm.qa.testcases.Admin_PaygradesTest.clickonadminpageTest(Admin_PaygradesTest.java:84)
 
