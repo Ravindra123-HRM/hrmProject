@@ -62,9 +62,11 @@ public class Admin_JobTitle extends Testbase{
     		String job_description=currentrow.getCell(1).getStringCellValue();
     		
     	    admin.click();
+    	    Thread.sleep(3000);
     	    usermanement.click();
-    	    Thread.sleep(2000);
+    	    Thread.sleep(3000);
     		job.click();
+    		 Thread.sleep(3000);
     		jobtitle.click();
     		addbtn.click();
     		jobtitlekey.sendKeys(job_title);

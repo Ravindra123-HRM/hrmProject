@@ -78,9 +78,13 @@ public class Admin_Paygrades extends Testbase
     		String max_sal=currentrow.getCell(2).getStringCellValue();
     		String pay_grade=currentrow.getCell(0).getStringCellValue();
     	    admin.click();
+    	    Thread.sleep(3000);
     		usermanement.click();
+    		 Thread.sleep(3000);
     		 job.click();
+    		 Thread.sleep(3000);
     		 paygrades.click();
+    		 Thread.sleep(3000);
     		 btnadd.click();
              paygradename.sendKeys(pay_grade);
     		 savebutton.click();

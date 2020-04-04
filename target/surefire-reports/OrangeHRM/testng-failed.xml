@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OrangeHRM]">
+  <test thread-count="5" verbose="0" name="Adminpage(failed)">
+    <classes>
+      <class name="com.hrm.qa.testcases.AdminPageTest">
+        <methods>
+          <include name="setextent"/>
+          <include name="tearDown"/>
+          <include name="clickonadminpageTest"/>
+          <include name="setup"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- com.hrm.qa.testcases.AdminPageTest -->
+    </classes>
+  </test> <!-- Adminpage(failed) -->
   <test thread-count="5" verbose="0" name="Adminpaygrade(failed)">
     <classes>
       <class name="com.hrm.qa.testcases.Admin_PaygradesTest">

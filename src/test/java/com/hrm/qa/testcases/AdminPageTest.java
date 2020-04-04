@@ -51,7 +51,7 @@ public class AdminPageTest  extends Testbase {
 		initialization();
 		lp=new LoginPage(driver);
 		ap=new Admin_JobTitle(driver);
-		lp.Username(prop.getProperty("username"),prop.getProperty("password"));
+
 	}
 	
 	
@@ -60,6 +60,9 @@ public class AdminPageTest  extends Testbase {
 	public void clickonadminpageTest() throws InterruptedException, IOException
 	{
 		test=extent.createTest("click on Admnin Page Test");
+		lp.Username(prop.getProperty("username"),prop.getProperty("password"));
+		String title=driver.getTitle();
+		System.out.println(title);
 		ap.clickonadmin();
 		ap.ReadExcelFile();
 		

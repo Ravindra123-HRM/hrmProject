@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="55.721" tests="3" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="136.714" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_141\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf720912288533842530.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2416975126607009337.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ravindra\apache-maven-3.6.3\bin;C:\ravindra\apache-maven-3.6.3;%M2_MAVEN%\bin;C:\Program Files (x86)\Java\jdk1.8.0_141;C:\Program Files (x86)\Java\jdk1.8.0_141\lib;C:\Program Files\Git\bin\;C:\Users\Dell\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,91 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="clickonadminpageTest" classname="com.hrm.qa.testcases.AdminPageTest" time="33.167"/>
-  <testcase name="login" classname="com.hrm.qa.testcases.LoginpageTest" time="2.757"/>
-  <testcase name="clickonadminpaygradeTestTest" classname="com.hrm.qa.testcases.Admin_PaygradesTest" time="19.797">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#payGrade_name&quot;}&#10;  (Session info: chrome=80.0.3987.163)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;RAVINDRAPC&apos;, ip: &apos;192.168.43.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a0f469aa57cbd388d611a43a56face19&#10;*** Element info: {Using=id, value=payGrade_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#payGrade_name"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RAVINDRAPC', ip: '192.168.43.56', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0f469aa57cbd388d611a43a56face19
-*** Element info: {Using=id, value=payGrade_name}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-	at com.hrm.qa.pages.Admin_Paygrades.ReadExcelFile(Admin_Paygrades.java:85)
-	at com.hrm.qa.testcases.Admin_PaygradesTest.clickonadminpaygradeTestTest(Admin_PaygradesTest.java:88)
-</failure>
-    <system-out><![CDATA[chrome
-OrangeHRM
-Done Mouse hover on 'admin' from Menu
-3
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 4285
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Apr 04, 2020 9:48:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1585973883.053][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.154][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.257][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.360][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.463][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.569][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.671][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.779][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.886][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973883.991][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.096][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.208][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.310][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.414][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.518][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.622][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.727][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.831][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973884.955][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.062][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.165][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.498][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.603][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.710][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.814][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973885.917][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973886.018][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973889.471][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973889.572][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973889.676][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973889.795][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973889.990][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973890.094][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.293][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.397][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.502][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.606][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.710][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.812][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973893.913][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973894.139][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973894.240][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585973894.342][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
+  <testcase name="clickonadminpageTest" classname="com.hrm.qa.testcases.AdminPageTest" time="52.079"/>
+  <testcase name="login" classname="com.hrm.qa.testcases.LoginpageTest" time="3.02"/>
+  <testcase name="clickonadminpaygradeTestTest" classname="com.hrm.qa.testcases.Admin_PaygradesTest" time="81.615"/>
 </testsuite>
